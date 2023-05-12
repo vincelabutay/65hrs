@@ -1,0 +1,98 @@
+
+/* ############################################# TAG SELECTOR ############################################# */
+
+h1{
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+hr{
+    margin:10px 0;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: blue;
+}
+
+/* ############################################ CLASS SELECTOR ######################################### */
+
+.top-container{
+    background-color: #F0F5F9;
+    margin:0;
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.middle-container{
+    background-color: #C9D6DF;
+    padding-bottom: 10px;
+}
+
+.bottom-container{
+    background-color: #52616B;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+.top-cloud{
+    position: absolute;
+    right:600px;
+    top:50px;
+    
+
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:600px;
+    bottom:300px;
+}
+
+.stack-container{
+    justify-content: space-evenly;
+    display:flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    text-align: center;
+}
+
+
+
+.vincepic{
+    height: 200px;
+    width: 200px;
+}
+
+.skill-image{
+    height: 50px;
+    width: 50px;
+}
+
+.copyright-footer{
+    margin-bottom: 0;
+}
+
+.helloh2{
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.web-title{
+    font-size: 2.5rem;
+}
