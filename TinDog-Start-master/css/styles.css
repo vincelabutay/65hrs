@@ -1,0 +1,85 @@
+/* #####################################ID SELECTOR###################################### */
+
+#title {
+    background-color: #ff4c68;
+}
+
+#navbartitle{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    
+}
+
+#iphone6 {
+    transform: rotate(18deg);
+    float:right;
+    margin-right: 13%;
+    width: 60%;
+}
+
+#row1 {
+    margin-top: 4rem;
+}
+
+#bodyid {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container1 {
+    padding-left: 0;
+}
+
+#features {
+    text-align: center;
+    margin: 200px;
+    padding: 5%;
+}
+
+/* TAG SELECTOR */
+
+
+
+.header1 {
+    line-height: 1.5;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+
+#containerheader {
+    padding: 3% 15%;
+    
+    
+}
+
+.nav-link {
+    margin: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.downloadbutton {
+    margin: 5% 3% 5% 0;
+}
+
+p{
+    color: #8f8f8f;
+    
+}
+
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.s2fa:hover {
+    color: #ff4c68;
+}
+
+.s2fa {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #ef8172;
+}
