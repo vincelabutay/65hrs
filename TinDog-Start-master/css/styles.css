@@ -38,6 +38,24 @@
     padding: 5%;
 }
 
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
 /* TAG SELECTOR */
 
 
@@ -74,6 +92,12 @@ h3{
     font-family: 'Montserrat-Black', sans-serif;
 }
 
+#s2h2 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 3;
+}
+
 .s2fa:hover {
     color: #ff4c68;
 }
@@ -82,4 +106,24 @@ h3{
     font-size: 3rem;
     margin-bottom: 30px;
     color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100% ;
+    margin: 20px;
+}
+
+.press-logos {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card {
+    text-align: center;
+    margin: 10px 10px;
 }
