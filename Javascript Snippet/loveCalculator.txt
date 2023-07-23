@@ -1,0 +1,25 @@
+var a = prompt("Enter First Name");
+
+var b = prompt("Enter Second Name");
+
+function loveCalc1() {
+    var loveCalc = Math.random();
+    loveCalc = loveCalc * 100;
+    loveCalc = Math.floor(loveCalc) + 1;
+
+    if (loveCalc >= 70) {
+    alert("The Love Percentage of " + a + " and " + b + " is " + loveCalc + "% Crazy Love");  
+    } else if (loveCalc <= 69 && loveCalc >= 40) {
+    alert("The Love Percentage of " + a + " and " + b + " is " + loveCalc + "% Fine Love");  
+    } else {
+    alert("The Love Percentage of " + a + " and " + b + " is " + loveCalc + "% Poor Love");
+    }
+
+    return loveCalc;
+}
+
+loveCalc1();
+
+// var loveScore = Math.random() * 100;
+// loveScore = Math.floor(loveScore) + 1;
+// alert("Your Love Score is" + loveScore + "%");

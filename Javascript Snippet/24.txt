@@ -1,0 +1,13 @@
+
+
+var guestList = ["Angela", "Jack", "Pamela", "James", "Lara", "Jason"];
+
+var guest = prompt("What is your Name?");
+
+    
+
+if(guestList.includes(guest)) {
+    alert("Welcome " + guest + ".");
+} else{
+    alert("Your Not in the List")
+}

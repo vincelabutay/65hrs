@@ -1,0 +1,25 @@
+
+
+function isLeap(year) {
+    var year = prompt("Enter a Year");
+    var a = year % 4;
+    var b = year % 100;
+    var c = year % 400;
+
+
+
+    if (a == 0) {
+        alert("A Leap Year");
+    } else if (a == 0 && b == 0) {
+        alert("Not A Leap Year");   
+    }else if(a == 0 && b == 0 && c == 0) {
+        alert("A Leap Year");
+    } else if (a == 0 && b == 0 && c != 0) {
+        alert("Not A Leap Year");
+    } else {
+        Return "Not A Leap Year"
+    }
+    return 0;
+}
+
+isLeap();
